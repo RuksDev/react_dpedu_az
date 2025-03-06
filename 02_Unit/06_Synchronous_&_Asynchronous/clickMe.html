@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">ClickMe</button>
+    <script>
+        console.log("Start");
+
+        document.getElementById("btn").addEventListener("click", ()=>{
+            console.log("Button Clicked");
+        })
+        for(i=0; i<10000; i++) {
+            console.log(i);
+        }
+
+        console.log("End");
+    </script>
+</body>
+</html>

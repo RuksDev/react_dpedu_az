@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">ClickMe</button>
+    <button id="btn2">ClickMe2</button>
+    <script>
+
+        // Arrow Function expression New method
+        document.getElementById("btn").addEventListener ("click", () => {
+            console.log("Button clicked");
+        })
+
+        //Old method
+        document.getElementById("btn2").addEventListener ("click", click);
+        function click () {
+            console.log("Button Clicked2");
+        } 
+        
+    </script>
+</body>
+</html>
